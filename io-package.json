@@ -72,6 +72,7 @@
     "extIcon": "https://raw.githubusercontent.com/TA2k/ioBroker.renault/master/admin/renault.png",
     "readme": "https://github.com/TA2k/ioBroker.renault/blob/master/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "vehicle",
     "compact": true,
