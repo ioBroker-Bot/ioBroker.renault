@@ -1,18 +1,20 @@
-# No dot-directories except github/vscode
-.*/
-!.vscode/
-!.github/
+# Dependencies
+node_modules/
 
-*.code-workspace
-node_modules
-nbproject
-
-# npm package files
+# Build / test artifacts
+*.tgz
 iobroker.*.tgz
-
-Thumbs.db
-
-# i18n intermediate files
+.commitinfo
 admin/i18n/flat.txt
 admin/i18n/*/flat.txt
+
+# OS / editor / IDE
 .DS_Store
+**/.DS_Store
+Thumbs.db
+*.code-workspace
+.idea/
+nbproject/
+
+# Local-only project files (developer references etc.)
+.references/

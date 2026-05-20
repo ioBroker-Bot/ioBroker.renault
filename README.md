@@ -27,15 +27,21 @@ renault.0.vin.remote auf true setzen steuert den jeweiligen Befehl
 
 ## Changelog
 
+### 0.0.22
+
+- (TA2k) update dependencies, migration to ESLint 10, fix repochecker findings
+
 ### 0.0.7
 
 - (TA2k) initial release
+
+[Older changelogs can be found there](CHANGELOG_OLD.md)
 
 ## License
 
 MIT License
 
-Copyright (c) 2021 TA2k <tombox2020@gmail.com>
+Copyright (c) 2021-2026 TA2k <tombox2020@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,14 @@
+{
+  "Login": "Logowanie",
+  "App Email": "Email aplikacji",
+  "App Password": "Hasło aplikacji",
+  "Country": "Kraj",
+  "Two-letter country code, e.g. de, fr, it, es": "Dwuliterowy kod kraju, np. de, fr, it, es",
+  "Polling": "Odpytywanie",
+  "Update interval in minutes": "Interwał aktualizacji w minutach",
+  "Disable charge fetching": "Wyłącz pobieranie danych ładowania",
+  "API Key": "Klucz API",
+  "API Key (leave empty for auto-detect)": "Klucz API (pozostaw puste, aby wykryć automatycznie)",
+  "If empty, the API key will be set automatically": "Jeśli puste, klucz API zostanie ustawiony automatycznie",
+  "Click here for current API Key": "Kliknij tutaj, aby uzyskać aktualny klucz API"
+}
