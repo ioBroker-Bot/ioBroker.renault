@@ -5,35 +5,94 @@
     "news": {
       "0.0.23": {
         "en": "align API headers with My Renault Android app (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
-        "de": "API-Header an My-Renault-Android-App angeglichen (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)"
+        "de": "API-Header an My-Renault-Android-App angeglichen (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "ru": "Заголовки API приведены в соответствие с приложением My Renault для Android (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "pt": "Cabeçalhos da API alinhados com o app Android My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "nl": "API-headers afgestemd op de My Renault Android-app (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "fr": "En-têtes API alignés avec l'application Android My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "it": "Header API allineati all'app Android My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "es": "Cabeceras API alineadas con la app Android My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "pl": "Nagłówki API dopasowane do aplikacji Android My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "uk": "Заголовки API приведені у відповідність з Android-застосунком My Renault (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "zh-cn": "API 头与 My Renault 安卓应用对齐（User-Agent okhttp/5.3.0, X-Amzn-Trace-Id）"
       },
       "0.0.22": {
         "en": "add error log",
-        "de": "Fehlerprotokoll hinzugefügt"
+        "de": "Fehlerprotokoll hinzugefügt",
+        "ru": "Добавлено журналирование ошибок",
+        "pt": "Adicionado registo de erros",
+        "nl": "Foutlogboek toegevoegd",
+        "fr": "Journal d'erreurs ajouté",
+        "it": "Aggiunto log degli errori",
+        "es": "Añadido registro de errores",
+        "pl": "Dodano dziennik błędów",
+        "uk": "Додано журнал помилок",
+        "zh-cn": "添加错误日志"
       },
       "0.0.21": {
         "en": "fix login",
-        "de": "Login korrigiert"
+        "de": "Login korrigiert",
+        "ru": "Исправлен вход",
+        "pt": "Correção do login",
+        "nl": "Login gerepareerd",
+        "fr": "Correction de la connexion",
+        "it": "Correzione del login",
+        "es": "Corrección del inicio de sesión",
+        "pl": "Naprawa logowania",
+        "uk": "Виправлено вхід",
+        "zh-cn": "修复登录"
       },
       "0.0.17": {
         "en": "update apikey",
-        "de": "API-Key aktualisiert"
+        "de": "API-Key aktualisiert",
+        "ru": "Обновлён API-ключ",
+        "pt": "Atualizada a API key",
+        "nl": "API-sleutel bijgewerkt",
+        "fr": "Mise à jour de la clé API",
+        "it": "Chiave API aggiornata",
+        "es": "Clave API actualizada",
+        "pl": "Zaktualizowano klucz API",
+        "uk": "Оновлено API-ключ",
+        "zh-cn": "更新 API 密钥"
       },
       "0.0.15": {
         "en": "fix charge start and reduce error logs",
-        "de": "Ladestart korrigiert und Fehlerprotokolle reduziert"
+        "de": "Ladestart korrigiert und Fehlerprotokolle reduziert",
+        "ru": "Исправлен запуск зарядки и уменьшены журналы ошибок",
+        "pt": "Correção do início de carga e redução dos logs de erro",
+        "nl": "Laadstart gerepareerd en foutlogboeken verminderd",
+        "fr": "Correction du démarrage de charge et réduction des journaux d'erreur",
+        "it": "Correzione dell'avvio della carica e riduzione dei log degli errori",
+        "es": "Corregido el inicio de carga y reducidos los registros de error",
+        "pl": "Naprawiono start ładowania i zmniejszono logi błędów",
+        "uk": "Виправлено старт зарядки та зменшено журнали помилок",
+        "zh-cn": "修复充电启动并减少错误日志"
       },
       "0.0.14": {
         "en": "add charging stop",
-        "de": "Ladestopp hinzugefügt"
+        "de": "Ladestopp hinzugefügt",
+        "ru": "Добавлена остановка зарядки",
+        "pt": "Adicionada paragem de carga",
+        "nl": "Stoppen van het laden toegevoegd",
+        "fr": "Ajout de l'arrêt de la charge",
+        "it": "Aggiunto stop della carica",
+        "es": "Añadida parada de carga",
+        "pl": "Dodano zatrzymanie ładowania",
+        "uk": "Додано зупинку зарядки",
+        "zh-cn": "添加充电停止"
       },
       "0.0.13": {
         "en": "add remote object for force refresh",
-        "de": "Remote-Objekt für erzwungene Aktualisierung hinzugefügt"
-      },
-      "0.0.10": {
-        "en": "update apikey",
-        "de": "API-Key aktualisiert"
+        "de": "Remote-Objekt für erzwungene Aktualisierung hinzugefügt",
+        "ru": "Добавлен удалённый объект для принудительного обновления",
+        "pt": "Adicionado objeto remoto para forçar atualização",
+        "nl": "Remote-object voor geforceerde verversing toegevoegd",
+        "fr": "Ajout d'un objet distant pour le rafraîchissement forcé",
+        "it": "Aggiunto oggetto remoto per il refresh forzato",
+        "es": "Añadido objeto remoto para actualización forzada",
+        "pl": "Dodano obiekt zdalny do wymuszonego odświeżenia",
+        "uk": "Додано віддалений об'єкт для примусового оновлення",
+        "zh-cn": "添加用于强制刷新的 remote 对象"
       }
     },
     "titleLang": {
@@ -63,7 +122,7 @@
       "zh-cn": "雷诺汽车的适配器，例如 Zoe"
     },
     "authors": ["TA2k <tombox2020@gmail.com>"],
-    "keywords": ["ioBroker", "renault", "Renault"],
+    "keywords": ["renault", "Renault", "dacia", "Dacia", "zoe", "kangoo"],
     "licenseInformation": {
       "type": "free",
       "license": "MIT"
@@ -95,7 +154,7 @@
     ],
     "globalDependencies": [
       {
-        "admin": ">=7.6.17"
+        "admin": ">=7.6.20"
       }
     ]
   },

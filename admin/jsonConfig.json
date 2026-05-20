@@ -11,27 +11,33 @@
       "type": "text",
       "label": "App Email",
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 6,
-      "lg": 4
+      "lg": 4,
+      "xl": 4
     },
     "password": {
       "type": "password",
       "label": "App Password",
       "repeat": false,
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 6,
-      "lg": 4
+      "lg": 4,
+      "xl": 4
     },
     "country": {
       "type": "text",
       "label": "Country",
       "help": "Two-letter country code, e.g. de, fr, it, es",
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 4,
-      "lg": 2
+      "lg": 2,
+      "xl": 2
     },
     "_pollingHeader": {
       "type": "header",
@@ -45,17 +51,21 @@
       "min": 1,
       "max": 1440,
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 4,
-      "lg": 2
+      "lg": 2,
+      "xl": 2
     },
     "disableChargeFetching": {
       "type": "checkbox",
       "label": "Disable charge fetching",
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 6,
-      "lg": 4
+      "lg": 4,
+      "xl": 4
     },
     "_apiHeader": {
       "type": "header",
@@ -68,18 +78,22 @@
       "label": "API Key (leave empty for auto-detect)",
       "help": "If empty, the API key will be set automatically",
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 8,
-      "lg": 6
+      "lg": 6,
+      "xl": 6
     },
     "_apiKeyLink": {
       "type": "staticLink",
       "label": "Click here for current API Key",
       "href": "https://github.com/db-EV/ZoePHP/blob/main/src/api-keys.php",
       "newLine": true,
+      "xs": 12,
       "sm": 12,
       "md": 8,
-      "lg": 6
+      "lg": 6,
+      "xl": 6
     }
   }
 }
