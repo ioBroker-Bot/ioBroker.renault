@@ -28,7 +28,17 @@ class Renault extends utils.Adapter {
     this.ignoreState = {};
     this.firstUpdate = true;
     this.requestClient = axios.create();
-    this.userAgent = 'MYRenault/1 CFNetwork/1494.0.7 Darwin/23.4.0';
+    this.userAgent = 'okhttp/5.3.0';
+  }
+
+  /** APK rI2.smali (WiredHeaderAppVersionInterceptor): build={brand}-android-{version};trId={uuid} on wired Kamereon host */
+  buildTraceId() {
+    const uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+      const r = (Math.random() * 16) | 0;
+      const v = c === 'x' ? r : (r & 0x3) | 0x8;
+      return v.toString(16);
+    });
+    return 'build=renault-android-6.11.2;trId=' + uuid;
   }
 
   /**
@@ -211,6 +221,7 @@ class Renault extends utils.Adapter {
         'user-agent': this.userAgent,
         'accept-language': 'de-de',
         'x-gigya-id_token': this.session.id_token,
+        'X-Amzn-Trace-Id': this.buildTraceId(),
       },
     })
       .then(async (res) => {
@@ -431,7 +442,7 @@ class Renault extends utils.Adapter {
         await this.requestClient({
           method: 'get',
           url: url,
-          headers: headers,
+          headers: { ...headers, 'X-Amzn-Trace-Id': this.buildTraceId() },
         })
           .then((res) => {
             this.log.debug(JSON.stringify(res.data));
@@ -632,6 +643,7 @@ class Renault extends utils.Adapter {
             'user-agent': this.userAgent,
             'accept-language': 'de-de',
             'x-gigya-id_token': this.session.id_token,
+            'X-Amzn-Trace-Id': this.buildTraceId(),
           },
           data: data,
         })

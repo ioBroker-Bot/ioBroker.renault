@@ -27,6 +27,10 @@ renault.0.vin.remote auf true setzen steuert den jeweiligen Befehl
 
 ## Changelog
 
+### 0.0.23
+
+- (TA2k) align API headers with My Renault Android app (User-Agent `okhttp/5.3.0`, `X-Amzn-Trace-Id`)
+
 ### 0.0.22
 
 - (TA2k) update dependencies, migration to ESLint 10, fix repochecker findings

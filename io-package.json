@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "renault",
-    "version": "0.0.22",
+    "version": "0.0.23",
     "news": {
+      "0.0.23": {
+        "en": "align API headers with My Renault Android app (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)",
+        "de": "API-Header an My-Renault-Android-App angeglichen (User-Agent okhttp/5.3.0, X-Amzn-Trace-Id)"
+      },
       "0.0.22": {
         "en": "add error log",
         "de": "Fehlerprotokoll hinzugefügt"
